@@ -1,0 +1,16 @@
+/*
+    Folha de estilo site one page HTML5 e CSS3
+    @author Professor José de Assis
+    joseassis.com.br
+            seletor{propiedade: valor;}
+            seletor = <tag>, id, .Class
+            seletor{
+                propriedade1: valor;
+                propriedade2: valor;
+            }    
+
+*/
+
+body{
+    background-color: #ff0000;
+}
