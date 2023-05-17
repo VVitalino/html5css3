@@ -41,6 +41,11 @@ body {
     align-items: center;
 }
 
+.Flex3 {
+    display: flex;
+    flex-direction: column;
+}
+
 .Botao {    
     text-decoration: none;
     color: #fff;
@@ -157,6 +162,24 @@ main h2 {
     margin-right: 10px;
 }
 
+/* One page */
+#onepage {
+    padding: 50px 10px;
+}
+#onepage h2 {
+    margin-bottom: 10px;
+}
+
+#onepage p {
+    margin-bottom: 25px;
+}
+
+#video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0;
+}
+
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
 @media (min-width: 576px){
     /* Layout */
@@ -167,6 +190,12 @@ main h2 {
     main h1, main h2 {
         text-shadow: #000 0.05em 0.05em 0.05em;
     }
+    #video iframe {
+        width: 560px;
+        height: 315px;
+    }
+    
+
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
@@ -208,54 +237,59 @@ main h2 {
         max-width: 1140px;
     }
 
-/* Cabeçalho */
-header {
+    /* Cabeçalho */
+    header {
     height: 120px;
-}
+    }
 
-.logo img {
-    width: 189px;
-    height: 189px;
-    margin-top: 30px;
-}
+    .logo img {
+        width: 189px;
+        height: 189px;
+        margin-top: 30px;
+    }
 
-label {
-    display: none;
+    label {
+        display: none;
 
-}
+    }
 
-nav ul {
-   position: static; 
-   height: auto;
-   background-color: transparent;
-   margin-top: 50px;
-}
+    nav ul {
+    position: static; 
+    height: auto;
+    background-color: transparent;
+    margin-top: 50px;
+    }
 
-nav ul li {
-    float: left;
-    border: 0;
-}
-nav ul li a {
-    color: #343538;
-}
+    nav ul li {
+        float: left;
+        border: 0;
+    }
+    nav ul li a {
+        color: #343538;
+    }
 
-nav ul li a:hover{
-    color: #c00000;
-}
+    nav ul li a:hover{
+        color: #c00000;
+    }
 
-/* Sobre */
-#sobre {
-    background-attachment: fixed;
-}
+    /* Sobre */
+    #sobre {
+        background-attachment: fixed;
+    }
 
-#destaqueSobre {
-    display: inline;
-}
+    #destaqueSobre {
+        display: inline;
+    }
 
-#destaqueSobre img {
-    border-radius: 50%;
-    margin-right: 50px;
-}
+    #destaqueSobre img {
+        border-radius: 50%;
+        margin-right: 50px;
+    }
+
+    /* One page */
+    .Flex3 {
+        flex-direction: row;
+    }
 
 }
 
